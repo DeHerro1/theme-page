@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#first_page{
+    background-image: url(image/img-4.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+#first_page section{
+    position: relative;
+    top: 40%;
+}
+#first_page section p{
+    font-size: 20px;
+    color: white;
+}
+#button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    border: 2px solid white;
+}
+#button:hover{
+    background-color: rgb(108, 110, 110);
+    color: white;
+}
+.first_section{
+    width: 100%;
+    text-align: center;
+    background-color: skyblue;
+}
+p{
+    font-size: 20px;
+}
+.first_section p{
+    line-height: 1.5em;
+    padding: 20px;
+}
+.second_section{
+    min-width: 100%;
+    text-align: center;
+}
+.second_section p{
+    line-height: 1.5em;
+    padding: 20px;
+}
+.third_section{
+    min-width: 100%;
+    display: inline-flex;
+}
+.third_section :nth-child(1){
+    background-color: skyblue;
+    line-height: 1.5em;
+    font-size: 20px;
+    padding: 20px;
+}
+.third_section :nth-child(2){
+    background-color: white;
+    line-height: 1.5em;
+    font-size: 20px;
+    padding: 20px;
+}
+.third_section :nth-child(3){
+    background-color: skyblue;
+    line-height: 1.5em;
+    font-size: 20px;
+    padding: 20px;
+}
